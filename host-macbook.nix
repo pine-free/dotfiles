@@ -1,5 +1,5 @@
 {
-  easy-hosts.hosts.macbook-air = {
+  easy-hosts.hosts.pinefrees-MacBook-Air = {
     class = "darwin";
     modules = [
       {
@@ -10,7 +10,8 @@
         # programs.fish.enable = true;
 
         # Set Git commit hash for darwin-version.
-        system.configurationRevision = self.rev or self.dirtyRev or null;
+        # system.configurationRevision = self.rev or self.dirtyRev or null;
+        system.configurationRevision = null; # TODO figure out how to do the above
 
         # Used for backwards compatibility, please read the changelog before changing.
         # $ darwin-rebuild changelog
