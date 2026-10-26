@@ -21,7 +21,6 @@
       ./modules/yazi.nix
       ./modules/helix.nix
       ./modules/jujutsu.nix
-      ./modules/zoxide.nix
       ./modules/tealdeer.nix
       ./modules/zellij.nix
       ./modules/devenv.nix

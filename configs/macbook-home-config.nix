@@ -21,7 +21,6 @@ let
         helix-editor
         yazi-fm
         jujutsu
-        zoxide
         tealdeer
         zellij
         devenv
