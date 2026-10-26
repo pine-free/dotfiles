@@ -6,6 +6,7 @@
       casks = [
         "obsidian"
         "telegram-desktop"
+        "librewolf"
       ];
     };
   };
