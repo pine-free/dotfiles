@@ -22,6 +22,7 @@
       ./modules/helix.nix
       ./modules/jujutsu.nix
       ./modules/zoxide.nix
+      ./modules/tealdeer.nix
       ./configs/macbook-host-config.nix
       (flake-parts-lib.importApply ./configs/macbook-home-config.nix {inherit home-manager nixpkgs self; })
     ];
