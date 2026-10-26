@@ -9,6 +9,7 @@ let
         self.homeModules.my-home-manager
         self.homeModules.zsh
         self.homeModules.helix-editor
+        self.homeModules.yazi-fm
         {
         home.username = "pinefree";
         home.homeDirectory = homePath;
