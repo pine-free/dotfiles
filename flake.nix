@@ -20,6 +20,7 @@
       ./modules/zsh.nix
       ./modules/yazi.nix
       ./modules/helix.nix
+      ./modules/jujutsu.nix
       ./configs/macbook-host-config.nix
       (flake-parts-lib.importApply ./configs/macbook-home-config.nix {inherit home-manager nixpkgs self; })
     ];

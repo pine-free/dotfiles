@@ -1,4 +1,5 @@
 {
+{self, ...}: {
   easy-hosts.hosts.pinefrees-MacBook-Air = {
     class = "darwin";
     modules = [
@@ -11,8 +12,7 @@
         # programs.fish.enable = true;
 
         # Set Git commit hash for darwin-version.
-        # system.configurationRevision = self.rev or self.dirtyRev or null;
-        system.configurationRevision = null; # TODO figure out how to do the above
+        system.configurationRevision = self.rev or self.dirtyRev or null;
         system.primaryUser = "pinefree";
 
         # Used for backwards compatibility, please read the changelog before changing.

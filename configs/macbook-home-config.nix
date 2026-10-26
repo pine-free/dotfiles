@@ -10,6 +10,7 @@ let
         self.homeModules.zsh
         self.homeModules.helix-editor
         self.homeModules.yazi-fm
+        self.homeModules.jujutsu
         {
         home.username = "pinefree";
         home.homeDirectory = homePath;
