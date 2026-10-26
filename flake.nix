@@ -21,6 +21,7 @@
       ./modules/yazi.nix
       ./modules/helix.nix
       ./modules/jujutsu.nix
+      ./modules/zoxide.nix
       ./configs/macbook-host-config.nix
       (flake-parts-lib.importApply ./configs/macbook-home-config.nix {inherit home-manager nixpkgs self; })
     ];
