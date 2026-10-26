@@ -4,7 +4,7 @@
         enable = true;
         oh-my-zsh = {
             enable = true;
-            theme = "agnoster";
+            theme = "apple";
         };
     };
     home.shell.enableZshIntegration = true;
