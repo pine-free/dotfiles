@@ -6,6 +6,9 @@
       settings = {
         theme = "gruvbox";
         editor.line-number = "relative";
+        keys.normal = {
+          "C-r" = ":rla";
+        };
       };
       extraPackages = with pkgs; [
         nil
