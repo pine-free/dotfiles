@@ -15,12 +15,12 @@
     imports = [
       inputs.easy-hosts.flakeModule
       inputs.home-manager.flakeModules.home-manager
-      ./host-macbook.nix
-      ./home-manager-self.nix
-      ./home-module-zsh.nix
-      ./helix.nix
-      ./yazi.nix
-      (flake-parts-lib.importApply ./home-manager.nix {inherit home-manager nixpkgs self; })
+      ./modules/home-manager.nix
+      ./modules/zsh.nix
+      ./modules/yazi.nix
+      ./modules/helix.nix
+      ./configs/macbook-host-config.nix
+      (flake-parts-lib.importApply ./configs/macbook-home-config.nix {inherit home-manager nixpkgs self; })
     ];
   });
 }
