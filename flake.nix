@@ -15,6 +15,7 @@
     imports = [
       inputs.easy-hosts.flakeModule
       inputs.home-manager.flakeModules.home-manager
+      ./modules/homebrew.nix
       ./modules/home-manager.nix
       ./modules/zsh.nix
       ./modules/yazi.nix

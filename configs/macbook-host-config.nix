@@ -2,6 +2,7 @@
   easy-hosts.hosts.pinefrees-MacBook-Air = {
     class = "darwin";
     modules = [
+      self.darwinModules.homebrew
       {
         # Necessary for using flakes on this system.
         nix.settings.experimental-features = "nix-command flakes";
@@ -12,6 +13,7 @@
         # Set Git commit hash for darwin-version.
         # system.configurationRevision = self.rev or self.dirtyRev or null;
         system.configurationRevision = null; # TODO figure out how to do the above
+        system.primaryUser = "pinefree";
 
         # Used for backwards compatibility, please read the changelog before changing.
         # $ darwin-rebuild changelog
