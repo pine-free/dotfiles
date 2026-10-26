@@ -8,6 +8,7 @@ let
       modules = [
         self.homeModules.my-home-manager
         self.homeModules.zsh
+        self.homeModules.helix-editor
         {
         home.username = "pinefree";
         home.homeDirectory = homePath;

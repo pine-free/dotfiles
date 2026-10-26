@@ -18,6 +18,7 @@
       ./host-macbook.nix
       ./home-manager-self.nix
       ./home-module-zsh.nix
+      ./helix.nix
       (flake-parts-lib.importApply ./home-manager.nix {inherit home-manager nixpkgs self; })
     ];
   });
