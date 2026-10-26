@@ -23,7 +23,6 @@ let
         jujutsu
         tealdeer
         zellij
-        devenv
         console-tools
     ]);
     };
