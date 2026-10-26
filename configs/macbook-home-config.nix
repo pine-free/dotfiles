@@ -25,6 +25,7 @@ let
         tealdeer
         zellij
         devenv
+        console-tools
     ]);
     };
 }
