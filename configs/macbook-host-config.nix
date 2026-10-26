@@ -1,4 +1,3 @@
-{
 {self, ...}: {
   easy-hosts.hosts.pinefrees-MacBook-Air = {
     class = "darwin";

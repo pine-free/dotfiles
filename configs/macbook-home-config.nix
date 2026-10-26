@@ -6,12 +6,6 @@ let
   flake.homeConfigurations.pinefree = home-manager.lib.homeManagerConfiguration {
       pkgs = import nixpkgs { system = "aarch64-darwin"; };
       modules = [
-        self.homeModules.my-home-manager
-        self.homeModules.zsh
-        self.homeModules.helix-editor
-        self.homeModules.yazi-fm
-        self.homeModules.jujutsu
-        self.homeModules.zoxide
         {
         home.username = "pinefree";
         home.homeDirectory = homePath;
@@ -21,6 +15,15 @@ let
           darwinFlake = flakePath;
           homeFlake = flakePath;
         };
-      }];
+      }] ++ (with self.homeModules; [
+        my-home-manager
+        zsh
+        helix-editor
+        yazi-fm
+        jujutsu
+        zoxide
+        tealdeer
+        zellij
+    ]);
     };
 }
