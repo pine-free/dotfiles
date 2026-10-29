@@ -7,6 +7,7 @@
         theme = "gruvbox";
         editor.line-number = "relative";
         editor.completion-timeout = 100;
+        editor.lsp.display-inlay-hints = true;
         keys.normal = {
           "C-r" = ":rla";
         };

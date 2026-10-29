@@ -7,6 +7,7 @@
         "obsidian"
         "telegram-desktop"
         "librewolf"
+        "amneziavpn"
       ];
     };
   };
